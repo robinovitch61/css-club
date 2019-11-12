@@ -1,6 +1,6 @@
 # css-club
 
-Please clone this repo and branch off! Keep track of your work and feel free to peek at others' branches for inspiration.
+Please fork this repo! Keep track of your work and feel free to peek at others' forks for inspiration.
 
 **Name your branches like this**: `name-batch` aka `nar-shahin-w1`
 
