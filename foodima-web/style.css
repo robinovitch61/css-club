@@ -9,6 +9,7 @@ html {
 
 body {
     margin: 60px 80px 60px 80px;
+    font-family: sans-serif;
 }
 
 a {
@@ -16,39 +17,73 @@ a {
 }
 
 h1 {
-    display: inline;
+    /* display: inline; */
     font-size: 25px;
     margin-right: 80px;
 }
 
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.overlay-image {
+    width: 70%;
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#guy {
+    height: 100%;
+}
+
+.navbar {
+    border: 1px solid pink; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
-    /* border: 1px solid red; */
-    /* margin-right: 50px; */
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+    font-family: Helvetica;
 }
 
 .links {
-    /* border: 1px solid blueviolet; */
-    font-family: sans-serif;
+    display: flex;
+    border: 1px solid blueviolet;
     font-size: 12px;
-    margin-left: 300px;
+    align-items: center;
 }
 
 .link {
-    margin: 10px;
-    /* border: 1px solid blue; */
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid blue;
 }
 
 .buttons {
-    margin: 10px 10px 10px 10px;
+    /* margin: 10px 10px 10px 10px; */
     border: 1px solid orange;
     position: relative;
 }
 
 .container {
     display: flex;
+    border: 1px solid purple; 
 }
 
 .notifications {
+    border: 1px solid cyan; 
     background: black;
     color: white;
     padding-top: 6px;
@@ -77,8 +112,9 @@ h1 {
 }
 
 .hero {
+    display: flex;
     background-color: #ffd9d9;
     height: 375px;
-    width: 1000px;
+    width: 100%;
     border-radius: 25px;
 }
